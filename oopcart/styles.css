@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#product-list, #cart {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#product-list ul, #cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#product-list li, #cart li {
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+}
